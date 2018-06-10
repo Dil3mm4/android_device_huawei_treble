@@ -1,0 +1,4 @@
+Search for your devicecodenamehere replacing with your device codename
+And also for xx setting up the required stuff.
+We highly discourage using vendor HALs/BLOBS/whatever in your system image, patch your on-device /vendor instead
+ 
