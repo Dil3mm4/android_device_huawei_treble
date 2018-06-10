@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-#Recall proprietary hals/bins whatever blobs if they exist
-$(call inherit-product-if-exists, vendor/huawei/treble/yourmakefile.mk)
+#Recall proprietary hals/bins whatever blobs if they exist (discouraged)
+#$(call inherit-product-if-exists, vendor/huawei/treble/yourmakefile.mk)
 
 #Inherit from GSI-common
 $(call inherit-product, device/phh/treble/base.mk)
